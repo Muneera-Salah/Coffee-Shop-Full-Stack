@@ -19,6 +19,38 @@ def setup_db(app):
     db.app = app
     db.init_app(app)
 
+    # drink = Drink(
+    #     title='Drink 2',
+    #     recipe=json.dumps([
+    #         {
+    #             'name': 'Drink 2 - Part 1',
+    #             'color': 'green',
+    #             'parts': 1
+    #         },
+    #         {
+    #             'name': 'Drink 2 - Part 2',
+    #             'color': 'yellow',
+    #             'parts': 1
+    #         }
+    #     ])
+    # )
+    # drink.insert()
+    # drink = Drink(
+    #     title='Drink 3',
+    #     recipe=json.dumps([
+    #         {
+    #             'name': 'Drink 3 - Part 1',
+    #             'color': 'pink',
+    #             'parts': 1
+    #         },
+    #         {
+    #             'name': 'Drink 3 - Part 2',
+    #             'color': 'black',
+    #             'parts': 1
+    #         }
+    #     ])
+    # )
+    # drink.insert()
 '''
 db_drop_and_create_all()
     drops the database tables and starts fresh
